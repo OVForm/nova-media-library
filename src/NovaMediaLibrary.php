@@ -31,6 +31,10 @@ class NovaMediaLibrary extends Tool
         return view('nova-media-library::navigation');
     }
 
+    public function menu(Request $request)
+    {
+	return [];
+    }
 
 
     private function config()
