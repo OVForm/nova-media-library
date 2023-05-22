@@ -5,6 +5,7 @@ namespace ClassicO\NovaMediaLibrary;
 use ClassicO\NovaMediaLibrary\Core\Helper;
 use Laravel\Nova\Nova;
 use Laravel\Nova\Tool;
+use Illuminate\Http\Request;
 
 class NovaMediaLibrary extends Tool
 {
